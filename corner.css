@@ -1,0 +1,87 @@
+.bg2{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+.button-grid{
+    display: grid;
+    grid-template-columns: 100px 100px 0 0;
+    padding: 5%;
+    background: rgb(174,234,238);
+    background: radial-gradient(circle, rgba(174,
+    234,238,1) 0%, rgba(173,233,148,1) 100%);
+    vertical-align: top;
+    border-radius: 15px;    
+}
+.corner-info{
+    display: auto;
+    padding:100px;
+    margin: 0;
+    vertical-align: top;
+    font-size: larger;
+    float: left;
+    line-height: 1.4;
+}
+
+.font-size1{
+    font-size: larger;
+    font-family: Arial;
+}
+.font-size1 ::marker{
+    color: lightgreen;
+    font-weight: bold;
+}
+.h2{
+    font-size: xx-large;
+}
+.back_button_2{
+   background-color: rgb(63, 202,93);
+    color: white;
+    border: 0;
+    height: 36px;
+    width: 90px;
+    border-radius: 15px;
+    cursor: pointer; 
+    margin-right: 50px;
+    transition: opacity 0.15s;
+}
+.back_button_2:hoover{
+    opacity: 0.5;
+}
+.back_button_2:active{
+    opacity:0.5;
+}
+.bedroom{
+    background-color: rgb(63, 202,93);
+    color: white;
+    border:none;
+    height: 36px;
+    width: 90px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px; 
+    transition: opacity 0.15s;
+        
+}
+.corner-room{
+    display: grid;
+    grid-template-rows: auto;
+    float: right;
+    height: 500px;
+    padding: 5px;
+}
+.a-corner{
+    height: 500px;
+    
+}
+.b-corner{
+    height: 500px;
+    
+}
